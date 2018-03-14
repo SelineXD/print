@@ -13,11 +13,10 @@ h1 {
 }
 
 #header {
-	background-color: white;
+	background-color: black;
 	padding: 15px;
 	padding-left:auto;
 	padding-right:auto;
-	width: 1200px;
 	/*height: 150px;*/
 	margin-left:auto;
 	margin-right:auto;	
