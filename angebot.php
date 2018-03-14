@@ -24,6 +24,32 @@
 		</div> <!--Ende container-->
 	</div>
 	<div id="content">
+<form action="angebot.php" method="post">
+			<table align="center" width="200">
+				<tr>
+					<td width="40%">Suchen:</td>
+					<td width="60%"><input name="name" type="text" maxlength="255" size="20" /></td>
+				</tr><tr>
+					<td colspan="2"><input type="submit" value="Angebot suchen" /></td>
+				</tr>
+			</table>
+		</form>
+		
+		<?php 
+		$name = $_POST['name']; 
+			echo "<b>Du hast nach dem Namen: \"<u>$name</u>\" gesucht. Dadurch wurden folgende Einträge gefunden:</b><br /><br />"; 
+				//* Überprüfung der Eingabe     
+				$abfrage = "SELECT * FROM angebote WHERE name LIKE '%$name%'"; 
+				$ergebnis = mysql_query($abfrage) or die(mysql_error()); 
+					if($ausgabe = mysql_fetch_assoc($ergebnis)) 
+						{ echo "".$ausgabe['name'].""; } //* Wenn was gefunden wurde, wird es hier ausgegeben. 
+					else 
+						{ echo "Es wurde kein Name unter den Namen \"<u>$name</u>\" gefunden.<br /> 
+						Bitte versuche es mit einem anderen namen.<br /> 
+						<a href='suchen.html'>Zur&uuml;ck!</a>"; 
+					}    // * Wenn nichts gefunden wurde, dann kommt diese Fehlermeldung. 
+									 
+		?>  
 
 	
 	
