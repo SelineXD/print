@@ -1,4 +1,6 @@
 <?php
-	// Verbindung zur Datenbank
-	$connection = new PDO('mysql:host=localhost;dbname=print', 'root', ''); 
+	// Session Beginn und Verbindung zur Datenbank
+	session_start();
+	$pdo = new PDO('mysql:host=localhost;dbname=print', 'root', '');
+		
 ?>

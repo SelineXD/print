@@ -6,6 +6,10 @@
 	<body>
 		
 	<div id="header">
+	<?php
+include("connection.php");
+?>
+
 	<div class="container">
 		<div id="logo">Printers</div>
 		<div id="share-buttons">
@@ -22,7 +26,12 @@
 		</div> <!--Ende container-->
 	</div>
 	<div id="content">
+<?php
+include("controlling.php");
+?>
 
+
+Angebot
 	
 	
 	

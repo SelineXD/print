@@ -7,6 +7,10 @@
 	<body>
 		
 	<div id="header">
+	<?php
+include("connection.php");
+?>
+
 	<div class="container">
 		<div id="logo">Printers</div>
 		<div id="share-buttons">
@@ -24,7 +28,7 @@
 	
 
 		<?php
-			session_start();
+			
 			session_destroy();
 			 
 			echo "Sie haben sich erfolgreich ausgeloggt.";

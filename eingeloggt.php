@@ -6,6 +6,9 @@
     </head>
     <body>
 <div id="header">
+<?php
+include("connection.php");
+?>
 	<div class="container">
 		<div id="logo">Printers</div>
 		<div id="share-buttons">
@@ -21,20 +24,9 @@
 		</div> <!--Ende container-->
 	</div>
 	<div id="content">
-	<?php
-session_start();
-$pdo = new PDO('mysql:host=localhost;dbname=searchlove', 'root', '');
-
-if(!isset($_SESSION['userid'])) {
- die('Bitte zuerst <a href="login.php">einloggen</a>');
-}
- 
-//Abfrage der Nutzer ID vom Login
-$userid = $_SESSION['userid'];
- 
-echo "Hallo User: ".$userid;
-?>
-	
+<?php
+include("controlling.php");
+?>	
 	
 	eingeloggt
 	</div>
