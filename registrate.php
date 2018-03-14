@@ -1,6 +1,5 @@
 <?php 
-session_start();
-$pdo = new PDO('mysql:host=localhost;dbname=print', 'root', '');
+include("connection.php");
 ?>
 <!DOCTYPE html> 
 <html> 
@@ -115,8 +114,8 @@ Passwort wiederholen:<br>
 } //Ende von if($showFormular)
 ?>
  
-	<p><br/>Zurück zum <a href="login.php">Login</a></p>
-	
+
+ 
 	
 </body>
 </html>
