@@ -6,6 +6,7 @@
 	<body>
 		
 	<div id="header">
+	<?phpinclude("connection-logout.php");?>
 	<div id="logo">Printers</div>
 	<div class="container">
 		
