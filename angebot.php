@@ -6,8 +6,9 @@
 	<body>
 		
 	<div id="header">
+	<div id="logo">Printers</div>
 	<div class="container">
-		<div id="logo">Printers</div>
+		
 			<a href="index.php">Home</a>
 			<a href="angebot.php">Angebot </a>
 			<a href="login.php">Login </a>

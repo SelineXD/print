@@ -5,10 +5,10 @@
 		<link rel="stylesheet" href="style.css">
     </head>
 	<body>
-		
+		<div id="logo">Printers</div>
 	<div id="header">
 	<div class="container">
-		<div id="logo">Printers</div>
+		
 			<a href="index.php">Home</a>
 			<a href="angebot.php">Angebot </a>
 			<a href="login.php">Login </a>

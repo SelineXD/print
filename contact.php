@@ -9,8 +9,9 @@
 <?php
 include("connection.php");
 ?>
+	<div id="logo">Printers</div>
 	<div class="container">
-		<div id="logo">Printers</div>
+		
 			<a href="contact.php">Kontakt</a>
 			<a href="angebot2.php">Angebot </a>
 			<a href="logout.php">Logout</a>
