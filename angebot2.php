@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
    <head>
         <title>Print</title>
@@ -15,19 +14,15 @@
 			<a href="https://twitter.com/share?url=https://simplesharebuttons.com&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons" target="_blank">
 	        		<img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" /></a>
 			</div>
-			<a href="index.php">Home</a>
-			<a href="angebot.php">Angebot </a>
-			<a href="login.php">Login </a>
+			<a href="contact.php">Kontakt</a>
+			<a href="angebot2.php">Angebot </a>
+			<a href="logout.php">Logout</a>
+
 			
 		</div> <!--Ende container-->
 	</div>
 	<div id="content">
-		<h1>Geschäftsleitung</h1>
-		<img src="bilder\seline.jpg" alt="seline" width="200px"><br/><br/>
-		Seline Andenmatten<br/><br/>
-		<img src="bilder\natascha.jpg" alt="natascha" width="200px"><br/><br/>
-		Natascha Krebs
-	
+
 	
 	
 	

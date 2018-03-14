@@ -37,8 +37,9 @@ if(isset($_GET['login'])) {
 	        		<img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" /></a>
 			</div>
 			<a href="index.php">Home</a>
-			<a href="login.php">Login </a>
 			<a href="angebot.php">Angebot </a>
+			<a href="login.php">Login </a>
+			
 			
 		</div> <!--Ende container-->
 	</div>

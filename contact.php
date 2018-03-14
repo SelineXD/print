@@ -14,8 +14,8 @@
 			<a href="https://twitter.com/share?url=https://simplesharebuttons.com&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons" target="_blank">
 	        		<img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" /></a>
 			</div>
-			<a href="angebot.php">Angebot </a>
 			<a href="contact.php">Kontakt</a>
+			<a href="angebot2.php">Angebot </a>
 			<a href="logout.php">Logout</a>
 			
 		</div> <!--Ende container-->

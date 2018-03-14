@@ -15,7 +15,7 @@
 	        		<img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" /></a>
 			</div>
 			<a href="contact.php">Kontakt</a>
-			<a href="angebot.php">Angebot </a>
+			<a href="angebot2.php">Angebot </a>
 			<a href="logout.php">Logout</a>
 			
 		</div> <!--Ende container-->
