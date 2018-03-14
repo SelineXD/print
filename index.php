@@ -5,8 +5,9 @@
 		<link rel="stylesheet" href="style.css">
     </head>
 	<body>
-		<div id="logo">Printers</div>
+		
 	<div id="header">
+	<div id="logo">Printers</div>
 	<div class="container">
 		
 			<a href="index.php">Home</a>
