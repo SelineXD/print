@@ -27,7 +27,7 @@ include("connection.php");
 <?php
 include("controlling.php");
 ?>
-Kontaktformular
+<h1>Kontaktformular</h1>
 <?php
 	//send_email.php
 	$email_from = "absender@domain.de";   //Absender falls keiner angegeben wurde
@@ -98,6 +98,9 @@ Kontaktformular
 	<form method="post" action="send_email.php">
 		<label for="Name"><b>Name:</b></label><br>
 			<input type="text" id="Name" name="Name"><br><br>
+		
+		<label for="Vorname"><b>Vorname:</b></label><br>
+			<input type="text" id="Vorname" name="Vorname"><br><br>
 		 
 		<label for="Email"><b>E-Mail:</b></label><br>
 			<input type="text" id="Email" name="Email"><br><br>
