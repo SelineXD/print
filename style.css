@@ -190,7 +190,8 @@ div#navi a {
 ======================================================= */
 .container {
     overflow: hidden;
-    background-color: white;
+    background-color: black;
+    heigth: 60px;
     font-family: Arial;
 }
 
