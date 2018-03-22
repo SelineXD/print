@@ -25,7 +25,7 @@
 	</div>
 	<div id="content">
 	Hier findest du die Angebote auf einem Blick. Gib das Papierformat ein!<br/><br/>
-<form action="angebot.php" method="post">
+<form action="ausgabe.php" method="post">
 			<table width="200">
 				<tr>
 					<td width="40%">Papierformat:</td>
@@ -38,7 +38,7 @@
 			</table>
 		</form>
 		
-		<?php 
+	<!--	<?php 
 		$format = $_POST['Format']; 
 			echo "<b>Du hast nach dem Format: \"<u>$format</u>\" gesucht. Dadurch wurden folgende Einträge gefunden:</b><br /><br />"; 
 				//* Überprüfung der Eingabe     
@@ -52,7 +52,7 @@
 						<a href='suchen.html'>Zur&uuml;ck!</a>"; 
 					}    // * Wenn nichts gefunden wurde, dann kommt diese Fehlermeldung. 
 									 
-		?>  
+		?>-->
 
 	
 	
