@@ -36,6 +36,12 @@ h1 {
 	float: right;
 }
 
+#eingeloggt {
+	color: white;
+	
+	
+}
+
 #content {
 	background-color: white;
 	padding: 15px;

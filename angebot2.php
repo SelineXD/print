@@ -9,8 +9,23 @@
 	<?php
 include("connection.php");
 ?>
+			<div id="eingeloggt">
+			<?php	//Abfrage der Nutzer ID vom Login
+
+				//$sql = "SELECT nachname,vorname FROM users WHERE id = '$userid'";
+				//$result = $pdo->query($sql);
+ 
+				//if ($result->rowCount() > 0) {
+				//		while($row = $result->fetch()) {
+				//			echo $row["vorname"]. " " . $row["nachname"] . "</br>";
+				//				}
+				//			}   else {
+				//				echo "ERROR";
+				//			}
+			?></div>
 	<div id="logo">Printers
 	</div>
+	
 	<div class="container">
 			<a href="contact.php">Kontakt</a>
 			<a href="angebot2.php">Angebot </a>
@@ -21,8 +36,8 @@ include("connection.php");
 			<a href="https://twitter.com/share?url=https://simplesharebuttons.com&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons" target="_blank">
 	        		<img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" /></a>
 			</div>
-			
-		</div> <!--Ende container-->
+
+</div> <!--Ende container-->
 		
 	</div>
 	<div id="content">
