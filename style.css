@@ -38,6 +38,8 @@ h1 {
 
 #eingeloggt {
 	color: white;
+	float: right;
+	padding-bottom: 10px;
 	
 	
 }

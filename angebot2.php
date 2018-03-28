@@ -8,21 +8,8 @@
 	<div id="header">
 	<?php
 include("connection.php");
+include("controlling.php");
 ?>
-			<div id="eingeloggt">
-			<?php	//Abfrage der Nutzer ID vom Login
-
-				$sql = "SELECT nachname,vorname FROM users WHERE id = '$userid'";
-				$result = $pdo->query($sql);
- 
-				if ($result->rowCount() > 0) {
-						while($row = $result->fetch()) {
-							echo $row["vorname"]. " " . $row["nachname"] . "</br>";
-								}
-							}   else {
-								echo "ERROR";
-							}
-			?></div>
 	<div id="logo">Printers
 	</div>
 	
@@ -38,12 +25,23 @@ include("connection.php");
 			</div>
 
 </div> <!--Ende container-->
-		
+<div id="eingeloggt">
+			<?php	//Abfrage der Nutzer ID vom Login
+
+				$sql = "SELECT nachname,vorname FROM users WHERE id = '$userid'";
+				$result = $pdo->query($sql);
+ 
+				if ($result->rowCount() > 0) {
+						while($row = $result->fetch()) {
+							echo $row["vorname"]. " " . $row["nachname"] . "</br>";
+								}
+							}   else {
+								echo "ERROR";
+							}
+			?></div>		
 	</div>
 	<div id="content">
-<?php
-include("controlling.php");
-?>
+
 
 
 Angebot
