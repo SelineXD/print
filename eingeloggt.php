@@ -8,6 +8,7 @@
 <div id="header">
 <?php
 include("connection.php");
+include("controlling.php");
 ?>
 	<div id="logo">Printers</div>
 	<div class="container">
@@ -19,13 +20,24 @@ include("connection.php");
 	        		<img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" /></a>
 			<a href="https://twitter.com/share?url=https://simplesharebuttons.com&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons" target="_blank">
 	        		<img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" /></a>
-			</div>	
+			</div>
+	<div id="eingeloggt">
+			<?php	//Abfrage der Nutzer ID vom Login
+
+				$sql = "SELECT nachname,vorname FROM users WHERE id = '$userid'";
+				$result = $pdo->query($sql);
+ 
+				if ($result->rowCount() > 0) {
+						while($row = $result->fetch()) {
+							echo $row["vorname"]. " " . $row["nachname"] . "</br>";
+								}
+							}   else {
+								echo "ERROR";
+							}
+			?></div>		
 		</div> <!--Ende container-->
 	</div>
 	<div id="content">
-<?php
-include("controlling.php");
-?>	
 	
 	eingeloggt
 	</div>

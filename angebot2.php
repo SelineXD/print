@@ -23,8 +23,6 @@ include("controlling.php");
 			<a href="https://twitter.com/share?url=https://simplesharebuttons.com&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons" target="_blank">
 	        		<img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" /></a>
 			</div>
-
-</div> <!--Ende container-->
 <div id="eingeloggt">
 			<?php	//Abfrage der Nutzer ID vom Login
 
@@ -38,7 +36,9 @@ include("controlling.php");
 							}   else {
 								echo "ERROR";
 							}
-			?></div>		
+			?></div>
+</div> <!--Ende container-->
+		
 	</div>
 	<div id="content">
 

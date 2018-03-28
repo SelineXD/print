@@ -24,9 +24,8 @@
 		</div> <!--Ende container-->
 	</div>
 	<div id="content">
-	Hier findest du die Angebote auf einem Blick. Gib das Papierformat ein!<br/><br/>
+	Papierformate<br/><br/>
 
-	<h1>Diese Fussballer haben am selben Tag wie du Geburtstag:</h1>    
 		 <?php 
 		 $enter= $_POST['Format'];
         
