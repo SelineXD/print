@@ -37,25 +37,6 @@
 				</tr>
 			</table>
 		</form>
-		
-	<!--	<?php 
-		$format = $_POST['Format']; 
-			echo "<b>Du hast nach dem Format: \"<u>$format</u>\" gesucht. Dadurch wurden folgende Einträge gefunden:</b><br /><br />"; 
-				//* Überprüfung der Eingabe     
-				$abfrage = "SELECT * FROM angebote WHERE name LIKE '%$format%'"; 
-				$ergebnis = mysql_query($abfrage) or die(mysql_error()); 
-					if($ausgabe = mysql_fetch_assoc($ergebnis)) 
-						{ echo "".$ausgabe['format'].""; } //* Wenn was gefunden wurde, wird es hier ausgegeben. 
-					else 
-						{ echo "Es wurde kein Angebot unter dem Format \"<u>$format</u>\" gefunden.<br /> 
-						Bitte versuche es mit einem anderen Format.<br /> 
-						<a href='suchen.html'>Zur&uuml;ck!</a>"; 
-					}    // * Wenn nichts gefunden wurde, dann kommt diese Fehlermeldung. 
-									 
-		?>-->
-
-	
-	
 	
 	
 	</div>

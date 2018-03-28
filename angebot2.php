@@ -41,15 +41,19 @@ include("controlling.php");
 		
 	</div>
 	<div id="content">
-
-
-
-Angebot
-	
-	
-	
-	
-	</div>
+	Hier findest du die Angebote auf einem Blick. Gib das Papierformat ein!<br/><br/>
+		<form action="ausgabe2.php" method="post">
+			<table width="200">
+				<tr>
+					<td width="40%">Papierformat:</td>
+					<td width="60%"><input name="Format" type="text" maxlength="2" size="20" /></td>
+				</tr>
+				<tr></tr>
+				<tr>
+					<td colspan="2"><input type="submit" value="Angebote suchen" /></td>
+				</tr>
+			</table>
+		</form>	</div>
 
 	</body>
 </html>

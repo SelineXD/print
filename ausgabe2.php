@@ -6,12 +6,14 @@
 	<body>
 		
 	<div id="header">
-	<?phpinclude("connection-logout.php");?>
+	<?php
+	include("connection.php");
+	?>
 	<div id="logo">Printers</div>
 	<div class="container">
 		
 			<a href="index.php">Home</a>
-			<a href="angebot.php">Angebot</a>
+			<a href="angebot2.php">Angebot</a>
 			<a href="login.php">Login </a>
 		
 		<div id="share-buttons">
@@ -41,9 +43,9 @@
                     echo "<tr><td>" . $row["Format"]. "</td><td>" . $row["doppelseitig"]. "</td><td>" . $row["Farbe"]. "</td><td>" . $row["Papier"]. "</td><td>" . $row["Preis"]. "</td><td>" . $row["Waehrung"]. "</td></tr>";
                 }
                 echo "</table>";
-				echo "<a href='angebot.php'>zurück</a>";
+				echo "<a href='angebot2.php'>zurück</a>";
             }   else {
-                echo "Bitte geben Sie <a href='angebot.php'>erneut</a> ein Format ein. z.B. A4";
+                echo "Bitte geben Sie <a href='angebot2.php'>erneut</a> ein Format ein. z.B. A4";
             }
             ?>
 	
