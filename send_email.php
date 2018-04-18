@@ -24,7 +24,7 @@ include("controlling.php");
 	        		<img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" /></a>
 			</div>
 <div id="eingeloggt">
-			<?php	//Abfrage der Nutzer ID vom Login
+<?php	//Abfrage der Nutzer ID vom Login
 
 				$sql = "SELECT nachname,vorname FROM users WHERE id = '$userid'";
 				$result = $pdo->query($sql);
@@ -49,7 +49,7 @@ $name_von_emailfeld = "Email";   //Feld in der die Absenderadresse steht
  
 $empfaenger = "seline.andenmatten@lernende.bfo-vs.ch"; //Empfänger-Adresse
 $mail_cc = ""; //CC-Adresse, diese E-Mail-Adresse bekommt einer weitere Kopie
-$betreff = "________"; //Betreff der Email
+$betreff = "Anfrage"; //Betreff der Email
  
 $url_ok = "mail-erfolg.php"; //Zielseite, wenn E-Mail erfolgreich versendet wurde
 $url_fehler = "mail-misserfolg.php"; //Zielseite, wenn E-Mail nicht gesendet werden konnte
@@ -111,6 +111,7 @@ if($mail_senden){
   header("Location: ".$url_ok); //Mail wurde gesendet
   exit();
 } else{
+	echo $
   header("Location: ".$url_fehler); //Fehler beim Senden
   exit();
 }
