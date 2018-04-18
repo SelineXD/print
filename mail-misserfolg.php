@@ -43,7 +43,7 @@ include("controlling.php");
 
 
 <div id="content">	
-<h1>Es ist ein Fehler aufgetreten, bitte versuchen Sie es <a href="contact.php">erneut</a></h1>
+Es ist ein Fehler aufgetreten, bitte versuchen Sie es <a href="contact.php">erneut</a>.
 
 	</div>
      

@@ -23,12 +23,13 @@
 	</div>
 	<div id="content">
 		<h1>Geschäftsleitung</h1>
-		<img src="bilder\seline.jpg" alt="seline" width="200px"><br/><br/>
-		Seline Andenmatten<br/><br/>
-		<img src="bilder\natascha.jpg" alt="natascha" width="200px"><br/><br/>
-		Natascha Krebs
-	
-	
+		<table><tr><td><img src="bilder\seline.jpg" alt="seline" width="200px"></td><td></td><td><img src="bilder\natascha.jpg" alt="natascha" width="200px"></td></tr>
+		<tr><td><b>Seline Andenmatten</b></td><td></td><td><b>Natascha Krebs</b></td></tr>
+		<tr><td></td></tr>
+		<tr><td><b>Printers</b><br/>
+		Postfach<br/>
+		3930 Visp<br/></td></tr>
+		<tr><td>027 948 07 70</td></tr></table>
 	
 	
 	
