@@ -35,6 +35,15 @@ include("controlling.php");
 							}   else {
 								echo "ERROR";
 							}
+				// Bearbeiten des Formulars //
+					if ($_POST['captcha_code'] == $_SESSION['captcha_spam']) {
+					// Das Captcha wurde korrekt ausgefüllt //
+						
+				// [HIER] kann jetzt der PHP-Code hin, den vorher ohnehin genutzt hast, um das Formular zu verarbeiten.
+					} else {
+					// Captcha wurde falsch ausgefüllt, Fehler ausgeben. //
+						echo 'Du hast den Captcha-Code falsch eingegeben!';
+					}
 			?></div>
 	</div> <!--Ende container--></div>
 	<div id="content">
