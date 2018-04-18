@@ -43,27 +43,8 @@ include("controlling.php");
 
 
 <div id="content">	
-<h1>Kontaktformular</h1>
+<h1>Die Kontakt anfrage wurde erfolgreich versendet.</h1>
 
-	<form method="post" action="mail.php">
-		<label for="Name"><b>Name:</b></label><br>
-			<input type="text" id="Name" name="Name"><br><br>
-				 
-		<label for="Email"><b>E-Mail:</b></label><br>
-			<input type="text" id="Email" name="Email"><br><br>
-		 
-		<label for="Betreff"><b>Betreff:</b></label><br>
-			<input type="text" id="Betreff" name="Betreff"><br><br>
-		 
-		<label for="Nachricht"><b>Nachricht:</b></label><br>
-			<textarea id="Nachricht" name="Nachricht" rows="10" cols="50"></textarea> <br><br><br>
-			
-		<img src="captcha.php" border="0" title="Sicherheitscode"><br><br>
-		<input type="text" name="sicherheitscode" size="5">
-
-		 
-		<input type="submit" name="submit">
-	</form>
 	</div>
      
 	 <div id="footer"></div>
