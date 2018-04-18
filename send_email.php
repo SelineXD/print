@@ -110,8 +110,7 @@ $mail_senden = mail($empfaenger,$betreff,$msg,$header);
 if($mail_senden){
   header("Location: ".$url_ok); //Mail wurde gesendet
   exit();
-} else{
-	echo $
+} else{	
   header("Location: ".$url_fehler); //Fehler beim Senden
   exit();
 }
