@@ -7,8 +7,8 @@
     <body>
 	<div id="header">
 	<?php
-include("connection.php");
-include("controlling.php");
+	include("connection.php");
+	include("controlling.php");
 ?>
 	<div id="logo">Printers
 	</div>
