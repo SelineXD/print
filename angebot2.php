@@ -1,15 +1,15 @@
 <html>
-   <head>
+	<head>
         <title>Print</title>
 		<link rel="stylesheet" href="style.css">
     </head>
 	<body>
 		
-	<div id="header">
-	<?php
-include("connection.php");
-include("controlling.php");
-?>
+		<div id="header">
+			<?php
+				include("connection.php");
+				include("controlling.php");
+			?>
 	<div id="logo">Printers
 	</div>
 	
