@@ -40,7 +40,7 @@
 				</div>
 			</div> <!--Ende container-->
 		</div>
-	<div id="content">
+		<div id="content">
 	
 <?php
 $email_from = "absender@domain.de";   //Absender falls keiner angegeben wurde
@@ -116,7 +116,7 @@ if($mail_senden){
 }
 ?>
 
-</div>
+		</div>
 
 	</body>
 </html>

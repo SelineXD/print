@@ -31,8 +31,9 @@
 				<tr><td><b>Printers</b><br/>
 				Postfach<br/>
 				3930 Visp<br/></td></tr>
-				<tr><td>027 948 07 70</td></tr></table>
+				<tr><td>027 948 07 70</td></tr>
+			</table>
 		</div>
-
+		
 	</body>
 </html>

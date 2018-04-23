@@ -62,5 +62,6 @@ if(isset($_GET['login'])) {
 				 
 				<input type="submit" value="einloggen">
 			</form> 
+		</div>
 	</body>
 </html>
