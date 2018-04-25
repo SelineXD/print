@@ -34,15 +34,6 @@
 								}   else {
 									echo "ERROR";
 								}
-					// Bearbeiten des Formulars //
-						if ($_POST['captcha_code'] == $_SESSION['captcha_spam']) {
-						// Das Captcha wurde korrekt ausgefüllt //
-							
-					// [HIER] kann jetzt der PHP-Code hin, den vorher ohnehin genutzt hast, um das Formular zu verarbeiten.
-						} else {
-						// Captcha wurde falsch ausgefüllt, Fehler ausgeben. //
-							echo 'Du hast den Captcha-Code falsch eingegeben!';
-						}
 				?>
 				</div>
 			</div> <!--Ende container-->
@@ -67,7 +58,7 @@
 					<textarea id="Nachricht" name="Nachricht" rows="10" cols="50"></textarea> <br><br><br>
 					
 				<img src="captcha.php" border="0" title="Sicherheitscode"><br><br>
-				<input type="text" name="sicherheitscode" size="5">
+				<input type="text" name="captcha_code" size="5">
 
 				 
 				<input type="submit" name="submit">
