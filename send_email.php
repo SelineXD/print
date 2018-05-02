@@ -49,7 +49,7 @@
 	 
 	$empfaenger = "seline.andenmatten@lernende.bfo-vs.ch"; //Empfänger-Adresse
 	$mail_cc = ""; //CC-Adresse, diese E-Mail-Adresse bekommt einer weitere Kopie
-	$betreff = "Anfrage"; //Betreff der Email
+	$betreff = $_POST['Betreff']; //Betreff der Email
 	 
 	$url_ok = "mail-erfolg.php"; //Zielseite, wenn E-Mail erfolgreich versendet wurde
 	$url_fehler = "mail-misserfolg.php"; //Zielseite, wenn E-Mail nicht gesendet werden konnte
@@ -81,12 +81,12 @@
 	$msg = ":: Gesendet am $tag, den $n.$monat.$jahr - $time Uhr ::\n\n";
 	 
 	//Hier werden alle Eingabefelder abgefragt
-	while (list($name,$value) = each($_POST)) {
-	   if (in_array($name, $ignore_fields)) {
-			continue; //Ignore Felder wird nicht in die Mail eingefügt
-	   }
-	   $msg .= "::: $name :::\n$value\n\n";
-	}
+	//while (list($name,$value) = /*each($_POST)*/) {
+	//   if (in_array($name, $ignore_fields)) {
+	//		continue; //Ignore Felder wird nicht in die Mail eingefügt
+	//   }
+	   $msg .= /*"::: $name :::\n$value\n\n"*/$_POST['Nachricht'];
+	//}
 	 
 	 
 	 
@@ -111,7 +111,10 @@
 	  header("Location: ".$url_ok); //Mail wurde gesendet
 	  exit();
 	} else{	
-	  echo $empfaenger . $betreff . $msg . $header;
+	  echo "<p>Empfänger: " . $empfaenger ."</p>";
+	  echo "<p>Betreff: " . $betreff ."</p>";
+	  echo "<p>msg: " . $msg ."</p>";
+	  echo "<p>header: " . $header."</p>";
 	  //header("Location: ".$url_fehler); //Fehler beim Senden
 	  exit();
 	}
