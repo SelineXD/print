@@ -25,7 +25,7 @@
 			<h1>Geschäftsleitung</h1>
 			
 			<table>
-				<tr><td><img src="bilder\seline.jpg" alt="seline" width="200px"></td><td></td><td><img src="bilder\natascha.jpg" alt="natascha" width="200px"></td></tr>
+				<tr><td><img src="bilder/seline.jpg" alt="seline" width="200px"></td><td></td><td><img src="bilder/natascha.jpg" alt="natascha" width="200px"></td></tr>
 				<tr><td><b>Seline Andenmatten</b></td><td></td><td><b>Natascha Krebs</b></td></tr>
 				<tr><td></td></tr>
 				<tr><td><b>Printers</b><br/>
