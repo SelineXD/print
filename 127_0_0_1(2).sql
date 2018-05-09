@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Erstellungszeit: 02. Mai 2018 um 16:27
+-- Erstellungszeit: 09. Mai 2018 um 16:31
 -- Server-Version: 10.1.26-MariaDB
 -- PHP-Version: 7.1.9
 
@@ -21,6 +21,8 @@ SET time_zone = "+00:00";
 --
 -- Datenbank: `print`
 --
+CREATE DATABASE IF NOT EXISTS `print` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+USE `print`;
 
 -- --------------------------------------------------------
 
